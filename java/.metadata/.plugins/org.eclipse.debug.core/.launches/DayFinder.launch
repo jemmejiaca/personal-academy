@@ -7,5 +7,6 @@
 <listEntry value="1"/>
 </listAttribute>
 <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="ch02.examples.DayFinder"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="20 50"/>
 <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="bravaco"/>
 </launchConfiguration>

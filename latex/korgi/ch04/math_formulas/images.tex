@@ -1,0 +1,519 @@
+\batchmode
+\documentclass[11pt,titlepage]{article}
+\RequirePackage{ifthen}
+
+
+
+
+\usepackage[spanish,activeacute]{babel}
+\usepackage{amsmath,amsthm}	
+\usepackage{amssymb,latexsym}
+\usepackage[nomessages]{fp} 
+
+
+\decimalpoint		% Use punto en vez de coma, asi: 5.45
+\allowdisplaybreaks	% Cambios de pagina en medio de alineaciones en ecuaciones, ponerlo siempre%
+\providecommand{\tto}{\longrightarrow}%
+\providecommand{\N}{{\ensuremath{\mathbb{N}}}}%
+\providecommand{\Q}{{\ensuremath{\mathbb{Q}}}}%
+\providecommand{\R}{{\ensuremath{\mathbb{R}}}}%
+\providecommand{\Z}{{\ensuremath{\mathbb{Z}}}}%
+\providecommand{\C}{{\ensuremath{\mathbb{C}}}}%
+\providecommand{\parcial}[2]{\frac{\partial #1}{\partial #2}}%
+\providecommand{\upla}[2]{(#1_1,#1_2,\ldots,#1_{#2})}%
+\providecommand{\kupla}[3][k]{(#2_{#3},\,\ldots,#2_{#1})} 
+
+
+\theoremstyle{plain}
+	
+\newtheorem{prop}{Proposici\'{o}n}[section] 
+\newtheorem{teor}[prop]{Teorema} 
+\newtheorem{coro}[prop]{Corolario} 
+\newtheorem{lema}[prop]{Lema} \theoremstyle{defintion}
+	
+\newtheorem{defi}{Definici\'{o}n}[section] 
+\newtheorem{ejem}{Ejemplo} 
+\newtheorem{ejer}{Ejercicio}[section] \theoremstyle{remark}
+	
+\newtheorem{nota}{Nota} 
+\newtheorem{notac}{Notaci\'{o}n} 
+
+\title{Veni, vidi, vici\\\small {Sieg Heil Sublime}}
+\author{Mauricio Mejia\\Mario Mejia\thanks{Hola mundo}}
+
+
+
+
+\usepackage[dvips]{color}
+
+
+\pagecolor[gray]{.7}
+
+\usepackage[latin1]{inputenc}
+
+
+
+\makeatletter
+
+\makeatletter
+\count@=\the\catcode`\_ \catcode`\_=8 
+\newenvironment{tex2html_wrap}{}{}%
+\catcode`\<=12\catcode`\_=\count@
+\newcommand{\providedcommand}[1]{\expandafter\providecommand\csname #1\endcsname}%
+\newcommand{\renewedcommand}[1]{\expandafter\providecommand\csname #1\endcsname{}%
+  \expandafter\renewcommand\csname #1\endcsname}%
+\newcommand{\newedenvironment}[1]{\newenvironment{#1}{}{}\renewenvironment{#1}}%
+\let\newedcommand\renewedcommand
+\let\renewedenvironment\newedenvironment
+\makeatother
+\let\mathon=$
+\let\mathoff=$
+\ifx\AtBeginDocument\undefined \newcommand{\AtBeginDocument}[1]{}\fi
+\newbox\sizebox
+\setlength{\hoffset}{0pt}\setlength{\voffset}{0pt}
+\addtolength{\textheight}{\footskip}\setlength{\footskip}{0pt}
+\addtolength{\textheight}{\topmargin}\setlength{\topmargin}{0pt}
+\addtolength{\textheight}{\headheight}\setlength{\headheight}{0pt}
+\addtolength{\textheight}{\headsep}\setlength{\headsep}{0pt}
+\setlength{\textwidth}{349pt}
+\newwrite\lthtmlwrite
+\makeatletter
+\let\realnormalsize=\normalsize
+\global\topskip=2sp
+\def\preveqno{}\let\real@float=\@float \let\realend@float=\end@float
+\def\@float{\let\@savefreelist\@freelist\real@float}
+\def\liih@math{\ifmmode$\else\bad@math\fi}
+\def\end@float{\realend@float\global\let\@freelist\@savefreelist}
+\let\real@dbflt=\@dbflt \let\end@dblfloat=\end@float
+\let\@largefloatcheck=\relax
+\let\if@boxedmulticols=\iftrue
+\def\@dbflt{\let\@savefreelist\@freelist\real@dbflt}
+\def\adjustnormalsize{\def\normalsize{\mathsurround=0pt \realnormalsize
+ \parindent=0pt\abovedisplayskip=0pt\belowdisplayskip=0pt}%
+ \def\phantompar{\csname par\endcsname}\normalsize}%
+\def\lthtmltypeout#1{{\let\protect\string \immediate\write\lthtmlwrite{#1}}}%
+\newcommand\lthtmlhboxmathA{\adjustnormalsize\setbox\sizebox=\hbox\bgroup\kern.05em }%
+\newcommand\lthtmlhboxmathB{\adjustnormalsize\setbox\sizebox=\hbox to\hsize\bgroup\hfill }%
+\newcommand\lthtmlvboxmathA{\adjustnormalsize\setbox\sizebox=\vbox\bgroup %
+ \let\ifinner=\iffalse \let\)\liih@math }%
+\newcommand\lthtmlboxmathZ{\@next\next\@currlist{}{\def\next{\voidb@x}}%
+ \expandafter\box\next\egroup}%
+\newcommand\lthtmlmathtype[1]{\gdef\lthtmlmathenv{#1}}%
+\newcommand\lthtmllogmath{\dimen0\ht\sizebox \advance\dimen0\dp\sizebox
+  \ifdim\dimen0>.95\vsize
+   \lthtmltypeout{%
+*** image for \lthtmlmathenv\space is too tall at \the\dimen0, reducing to .95 vsize ***}%
+   \ht\sizebox.95\vsize \dp\sizebox\z@ \fi
+  \lthtmltypeout{l2hSize %
+:\lthtmlmathenv:\the\ht\sizebox::\the\dp\sizebox::\the\wd\sizebox.\preveqno}}%
+\newcommand\lthtmlfigureA[1]{\let\@savefreelist\@freelist
+       \lthtmlmathtype{#1}\lthtmlvboxmathA}%
+\newcommand\lthtmlpictureA{\bgroup\catcode`\_=8 \lthtmlpictureB}%
+\newcommand\lthtmlpictureB[1]{\lthtmlmathtype{#1}\egroup
+       \let\@savefreelist\@freelist \lthtmlhboxmathB}%
+\newcommand\lthtmlpictureZ[1]{\hfill\lthtmlfigureZ}%
+\newcommand\lthtmlfigureZ{\lthtmlboxmathZ\lthtmllogmath\copy\sizebox
+       \global\let\@freelist\@savefreelist}%
+\newcommand\lthtmldisplayA{\bgroup\catcode`\_=8 \lthtmldisplayAi}%
+\newcommand\lthtmldisplayAi[1]{\lthtmlmathtype{#1}\egroup\lthtmlvboxmathA}%
+\newcommand\lthtmldisplayB[1]{\edef\preveqno{(\theequation)}%
+  \lthtmldisplayA{#1}\let\@eqnnum\relax}%
+\newcommand\lthtmldisplayZ{\lthtmlboxmathZ\lthtmllogmath\lthtmlsetmath}%
+\newcommand\lthtmlinlinemathA{\bgroup\catcode`\_=8 \lthtmlinlinemathB}
+\newcommand\lthtmlinlinemathB[1]{\lthtmlmathtype{#1}\egroup\lthtmlhboxmathA
+  \vrule height1.5ex width0pt }%
+\newcommand\lthtmlinlineA{\bgroup\catcode`\_=8 \lthtmlinlineB}%
+\newcommand\lthtmlinlineB[1]{\lthtmlmathtype{#1}\egroup\lthtmlhboxmathA}%
+\newcommand\lthtmlinlineZ{\egroup\expandafter\ifdim\dp\sizebox>0pt %
+  \expandafter\centerinlinemath\fi\lthtmllogmath\lthtmlsetinline}
+\newcommand\lthtmlinlinemathZ{\egroup\expandafter\ifdim\dp\sizebox>0pt %
+  \expandafter\centerinlinemath\fi\lthtmllogmath\lthtmlsetmath}
+\newcommand\lthtmlindisplaymathZ{\egroup %
+  \centerinlinemath\lthtmllogmath\lthtmlsetmath}
+\def\lthtmlsetinline{\hbox{\vrule width.1em \vtop{\vbox{%
+  \kern.1em\copy\sizebox}\ifdim\dp\sizebox>0pt\kern.1em\else\kern.3pt\fi
+  \ifdim\hsize>\wd\sizebox \hrule depth1pt\fi}}}
+\def\lthtmlsetmath{\hbox{\vrule width.1em\kern-.05em\vtop{\vbox{%
+  \kern.1em\kern0.8 pt\hbox{\hglue.17em\copy\sizebox\hglue0.8 pt}}\kern.3pt%
+  \ifdim\dp\sizebox>0pt\kern.1em\fi \kern0.8 pt%
+  \ifdim\hsize>\wd\sizebox \hrule depth1pt\fi}}}
+\def\centerinlinemath{%
+  \dimen1=\ifdim\ht\sizebox<\dp\sizebox \dp\sizebox\else\ht\sizebox\fi
+  \advance\dimen1by.5pt \vrule width0pt height\dimen1 depth\dimen1 
+ \dp\sizebox=\dimen1\ht\sizebox=\dimen1\relax}
+
+\def\lthtmlcheckvsize{\ifdim\ht\sizebox<\vsize 
+  \ifdim\wd\sizebox<\hsize\expandafter\hfill\fi \expandafter\vfill
+  \else\expandafter\vss\fi}%
+\providecommand{\selectlanguage}[1]{}%
+\makeatletter \tracingstats = 1 
+\providecommand{\Kappa}{\textrm{K}}
+\providecommand{\Mu}{\textrm{M}}
+\providecommand{\Alpha}{\textrm{A}}
+\providecommand{\Iota}{\textrm{J}}
+\providecommand{\Beta}{\textrm{B}}
+\providecommand{\Zeta}{\textrm{Z}}
+\providecommand{\Chi}{\textrm{X}}
+\providecommand{\Eta}{\textrm{H}}
+\providecommand{\Tau}{\textrm{T}}
+\providecommand{\omicron}{\textrm{o}}
+\providecommand{\Nu}{\textrm{N}}
+\providecommand{\Omicron}{\textrm{O}}
+\providecommand{\Rho}{\textrm{R}}
+\providecommand{\Epsilon}{\textrm{E}}
+
+
+\begin{document}
+\pagestyle{empty}\thispagestyle{empty}\lthtmltypeout{}%
+\lthtmltypeout{latex2htmlLength hsize=\the\hsize}\lthtmltypeout{}%
+\lthtmltypeout{latex2htmlLength vsize=\the\vsize}\lthtmltypeout{}%
+\lthtmltypeout{latex2htmlLength hoffset=\the\hoffset}\lthtmltypeout{}%
+\lthtmltypeout{latex2htmlLength voffset=\the\voffset}\lthtmltypeout{}%
+\lthtmltypeout{latex2htmlLength topmargin=\the\topmargin}\lthtmltypeout{}%
+\lthtmltypeout{latex2htmlLength topskip=\the\topskip}\lthtmltypeout{}%
+\lthtmltypeout{latex2htmlLength headheight=\the\headheight}\lthtmltypeout{}%
+\lthtmltypeout{latex2htmlLength headsep=\the\headsep}\lthtmltypeout{}%
+\lthtmltypeout{latex2htmlLength parskip=\the\parskip}\lthtmltypeout{}%
+\lthtmltypeout{latex2htmlLength oddsidemargin=\the\oddsidemargin}\lthtmltypeout{}%
+\makeatletter
+\if@twoside\lthtmltypeout{latex2htmlLength evensidemargin=\the\evensidemargin}%
+\else\lthtmltypeout{latex2htmlLength evensidemargin=\the\oddsidemargin}\fi%
+\lthtmltypeout{}%
+\makeatother
+\setcounter{page}{1}
+\onecolumn
+
+% !!! IMAGES START HERE !!!
+
+\stepcounter{section}
+{\newpage\clearpage
+\lthtmlinlinemathA{tex2html_wrap_inline443}%
+$ f(x,\  y)=ax+by$%
+\lthtmlinlinemathZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlinlinemathA{tex2html_wrap_indisplay445}%
+$\displaystyle f(x,y)=ax+by.$%
+\lthtmlindisplaymathZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlinlinemathA{tex2html_wrap_inline447}%
+$ \varepsilon>0$%
+\lthtmlinlinemathZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlinlinemathA{tex2html_wrap_inline449}%
+$ \delta>0$%
+\lthtmlinlinemathZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlinlinemathA{tex2html_wrap_inline451}%
+$ 0<|x-c|<\delta$%
+\lthtmlinlinemathZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlinlinemathA{tex2html_wrap_inline453}%
+$ |f(x)-L|<\varepsilon$%
+\lthtmlinlinemathZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlinlinemathA{tex2html_wrap_indisplay455}%
+$\displaystyle X_i \preccurlyeq X_j
+$%
+\lthtmlindisplaymathZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlinlinemathA{tex2html_wrap_inline457}%
+$ \ulcorner$%
+\lthtmlinlinemathZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlinlinemathA{tex2html_wrap_inline459}%
+$ \urcorner$%
+\lthtmlinlinemathZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlinlinemathA{tex2html_wrap_inline461}%
+$ \llcorner$%
+\lthtmlinlinemathZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlinlinemathA{tex2html_wrap_inline463}%
+$ \lrcorner$%
+\lthtmlinlinemathZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlinlinemathA{tex2html_wrap_indisplay465}%
+$\displaystyle \sum_{i=0}^{NM} \beta_i
+$%
+\lthtmlindisplaymathZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlinlinemathA{tex2html_wrap_indisplay467}%
+$\displaystyle \sum_{\substack{j=k\\i=k-1}}^{n,\  m}c_{i}\alpha_{j}
+$%
+\lthtmlindisplaymathZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlinlinemathA{tex2html_wrap_indisplay469}%
+$\displaystyle \left( \frac{1-n}{1+n} \right)^{n+1}
+$%
+\lthtmlindisplaymathZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlinlinemathA{tex2html_wrap_indisplay471}%
+$\displaystyle \left. \frac{dy}{dx} \right|_{x=b}=b+1
+$%
+\lthtmlindisplaymathZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlinlinemathA{tex2html_wrap_indisplay473}%
+$\displaystyle \biggl( \frac{1-n}{1+n} \biggr)^{n+1}
+$%
+\lthtmlindisplaymathZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlinlinemathA{tex2html_wrap_indisplay475}%
+$\displaystyle f_n(x)=
+	\begin{cases}
+	-x^{2}+n,	&	\text{si $x<0$\  y $n$\  es par},\\
+	\alpha +x,	&	\text{si $x>0$},\\
+	x^{2},		&	\text{en otros casos.}
+	\end{cases}
+$%
+\lthtmlindisplaymathZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlinlinemathA{tex2html_wrap_indisplay477}%
+$\displaystyle \int_a^b f(x)\,dx=
+\lim_{|P|\to 0}\,\sum_{i=0}^{n} f(\overline{x_i})\,\Delta_ix
+$%
+\lthtmlindisplaymathZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlinlinemathA{tex2html_wrap_indisplay479}%
+$\displaystyle \oint\limits_{(0,0)}^{(1,1)} f\cdot d\alpha
+$%
+\lthtmlindisplaymathZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlinlinemathA{tex2html_wrap_indisplay481}%
+$\displaystyle X\:\underrightarrow{\text{x+y}}\:Y
+$%
+\lthtmlindisplaymathZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlinlinemathA{tex2html_wrap_indisplay483}%
+$\displaystyle \begin{bmatrix}
+	0 &  i & -i &  1\\
+	1 &  0 &  i & -1\\
+	i & -1 &  0 & -i
+	\end{bmatrix}
+	\begin{bmatrix}
+	x_1 \\x_2 \\x_3 \\x_4
+	\end{bmatrix}
+$%
+\lthtmlindisplaymathZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlinlinemathA{tex2html_wrap_indisplay485}%
+$\displaystyle \begin{bmatrix}
+	a_{11} & a_{12} & \cdots & a_{1n}\\
+	a_{21} & a_{22} & \cdots & a_{2n}\\
+	\hdotsfor{4}\\
+	a_{m1} & a_{m2} & \cdots & a_{mn}
+	\end{bmatrix}
+	\begin{bmatrix}
+	a_{11} & a_{12} & \cdots & a_{1n}\\
+	a_{21} & a_{22} & \cdots & a_{2n}\\
+	\vdots & \vdots & \ddots & \vdots\\
+	a_{m1} & a_{m2} & \cdots & a_{mn}
+	\end{bmatrix}
+$%
+\lthtmlindisplaymathZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlinlinemathA{tex2html_wrap_inline487}%
+$ \mathfrak{F}$%
+\lthtmlinlinemathZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlinlinemathA{tex2html_wrap_inline489}%
+$ \sigma$%
+\lthtmlinlinemathZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlinlinemathA{tex2html_wrap_inline491}%
+$ \Omega$%
+\lthtmlinlinemathZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlinlinemathA{tex2html_wrap_indisplay493}%
+$\displaystyle \overset{a}{\underset{b}{W}}
+$%
+\lthtmlindisplaymathZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlinlinemathA{tex2html_wrap_indisplay495}%
+$\displaystyle X \overset{*}{\backsim} Y
+$%
+\lthtmlindisplaymathZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlinlinemathA{tex2html_wrap_indisplay497}%
+$\displaystyle X \overset{\text{ind}}{=} Y
+$%
+\lthtmlindisplaymathZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlinlinemathA{tex2html_wrap_inline499}%
+$ \mathbb{R}$%
+\lthtmlinlinemathZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlinlinemathA{tex2html_wrap_inline501}%
+$ \mathbb{C}$%
+\lthtmlinlinemathZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlinlinemathA{tex2html_wrap_inline503}%
+$ f:{\ensuremath{\mathbb{R}}}\longrightarrow {\ensuremath{\mathbb{C}}}$%
+\lthtmlinlinemathZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlinlinemathA{tex2html_wrap_indisplay505}%
+$\displaystyle \nabla f(x,\,y)=\left(\frac{\partial f}{\partial y},\,\frac{\partial f}{\partial y}\right)
+$%
+\lthtmlindisplaymathZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlinlinemathA{tex2html_wrap_indisplay507}%
+$\displaystyle (a_1,a_2,\ldots,a_{n})$%
+\lthtmlindisplaymathZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlinlinemathA{tex2html_wrap_indisplay509}%
+$\displaystyle (x_{2},\,\ldots,x_{m})$%
+\lthtmlindisplaymathZ
+\lthtmlcheckvsize\clearpage}
+
+\stepcounter{section}
+{\newpage\clearpage
+\lthtmlinlinemathA{tex2html_wrap_indisplay511}%
+$\displaystyle a*(a'*b)$%
+\lthtmlindisplaymathZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlinlinemathA{tex2html_wrap_indisplay512}%
+$\displaystyle = (a*a')*b$%
+\lthtmlindisplaymathZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlinlinemathA{tex2html_wrap_indisplay513}%
+$\displaystyle = c*b$%
+\lthtmlindisplaymathZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlinlinemathA{tex2html_wrap_inline515}%
+$ a'$%
+\lthtmlinlinemathZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlinlinemathA{tex2html_wrap_indisplay516}%
+$\displaystyle {=}_{e} b$%
+\lthtmlindisplaymathZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlinlinemathA{tex2html_wrap_inline518}%
+$ e$%
+\lthtmlinlinemathZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlinlinemathA{tex2html_wrap_inline525}%
+$ E$%
+\lthtmlinlinemathZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlinlinemathA{tex2html_wrap_inline527}%
+$ F$%
+\lthtmlinlinemathZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlinlinemathA{tex2html_wrap_inline540}%
+$ K$%
+\lthtmlinlinemathZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlinlinemathA{tex2html_wrap_inline542}%
+$ F\subseteq K\subseteq E$%
+\lthtmlinlinemathZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlinlinemathA{tex2html_wrap_inline544}%
+$ K\mapsto G(E/K)$%
+\lthtmlinlinemathZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlinlinemathA{tex2html_wrap_inline550}%
+$ G(E/F)$%
+\lthtmlinlinemathZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlinlinemathA{tex2html_wrap_inline562}%
+$ \qedsymbol$%
+\lthtmlinlinemathZ
+\lthtmlcheckvsize\clearpage}
+
+{\newpage\clearpage
+\lthtmlinlinemathA{tex2html_wrap_indisplay565}%
+$\displaystyle \sec^2(x)=1+\tan^2(x). \qedhere $%
+\lthtmlindisplaymathZ
+\lthtmlcheckvsize\clearpage}
+
+
+\end{document}

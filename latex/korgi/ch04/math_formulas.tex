@@ -1,0 +1,174 @@
+\documentclass[11pt,titlepage]{article}
+
+\usepackage[spanish,activeacute]{babel}
+%\usepackage[latin1]{inputenc}
+\usepackage{amsmath,amsthm}	% El segundo es para entorno demostración
+\usepackage{amssymb,latexsym}
+\usepackage[nomessages]{fp} % For doing simple calculations.
+
+\decimalpoint		% Use punto en vez de coma, asi: 5.45
+\allowdisplaybreaks	% Cambios de pagina en medio de alineaciones en ecuaciones, ponerlo siempre
+\newcommand{\tto}{\longrightarrow}
+\newcommand{\N}{{\ensuremath{\mathbb{N}}}}
+\newcommand{\Q}{{\ensuremath{\mathbb{Q}}}}
+\newcommand{\R}{{\ensuremath{\mathbb{R}}}}
+\newcommand{\Z}{{\ensuremath{\mathbb{Z}}}}
+\newcommand{\C}{{\ensuremath{\mathbb{C}}}}
+\newcommand{\parcial}[2]{\frac{\partial #1}{\partial #2}}
+\newcommand{\upla}[2]{(#1_1,#1_2,\ldots,#1_{#2})}
+\newcommand{\kupla}[3][k]{(#2_{#3},\,\ldots,#2_{#1})}
+
+% Teoremas y estructuras similares
+%\swapnumbers
+\theoremstyle{plain}
+	\newtheorem{prop}{Proposici\'{o}n}[section]
+	\newtheorem{teor}[prop]{Teorema}
+	\newtheorem{coro}[prop]{Corolario}
+	\newtheorem{lema}[prop]{Lema}
+\theoremstyle{defintion}
+	\newtheorem{defi}{Definici\'{o}n}[section]
+	\newtheorem{ejem}{Ejemplo}
+	\newtheorem{ejer}{Ejercicio}[section]
+\theoremstyle{remark}
+	\newtheorem{nota}{Nota}
+	\newtheorem*{notac}{Notaci\'{o}n}
+
+
+
+\title{Veni, vidi, vici\\\small{Sieg Heil Sublime}}
+\author{Mauricio Mejia\\Mario Mejia\thanks{Hola mundo}}
+
+\begin{document}
+
+\maketitle
+\section{Matem'aticas}
+La siguiente f'ormula: $f(x,\ y)=ax+by$ es una fórmula no desplegada, mientras que:
+\[f(x,y)=ax+by.\]
+si lo est'a, esbastante {\it cool}, ¿no?
+\\
+Para todo $\varepsilon>0$ existe una $\delta>0$ tal que $0<|x-c|<\delta$ implica que $|f(x)-L|<\varepsilon$.
+\[
+\text{texto dentro de la fórmula, wieeeerd\ }
+X_i \preccurlyeq X_j
+\]
+Los siguientes s'imbolos pertenecen al paquete {\tt latexsym}: $\ulcorner$, $\urcorner$, $\llcorner$, $\lrcorner$.
+Ahgamos algunas sumas:
+\[
+\sum_{i=0}^{NM} \beta_i
+\]
+Otra f'ormula m'as complicada:
+\[
+\sum_{\substack{j=k\\i=k-1}}^{n,\ m}c_{i}\alpha_{j}
+\]
+Delimitadores:
+\[
+\left( \frac{1-n}{1+n} \right)^{n+1}
+\]
+\[
+\left. \frac{dy}{dx} \right|_{x=b}=b+1
+\]
+\[
+\biggl( \frac{1-n}{1+n} \biggr)^{n+1}
+\]
+Los siguientes son casos!!!:
+\[f_n(x)=
+	\begin{cases}
+	-x^{2}+n,	&	\text{si $x<0$ y $n$ es par},\\
+	\alpha +x,	&	\text{si $x>0$},\\
+	x^{2},		&	\text{en otros casos.}
+	\end{cases}
+\]
+La definici'on formal de integral de Riemann:
+\[
+\int_a^b f(x)\,dx=
+\lim_{|P|\to 0}\,\sum_{i=0}^{n} f(\overline{x_i})\,\Delta_ix
+\]
+M'as integrales:
+\[
+\oint\limits_{(0,0)}^{(1,1)} f\cdot d\alpha
+\]
+Que tal esto:
+\[
+X\:\underrightarrow{\text{x+y}}\:Y
+\]
+Hagamos algunas matrices:
+\[
+	\begin{bmatrix}
+	0 &  i & -i &  1\\
+	1 &  0 &  i & -1\\
+	i & -1 &  0 & -i
+	\end{bmatrix}
+	\begin{bmatrix}
+	x_1 \\ x_2 \\ x_3 \\ x_4
+	\end{bmatrix}
+\]
+Matrices con puntos:
+\[
+	\begin{bmatrix}
+	a_{11} & a_{12} & \cdots & a_{1n}\\
+	a_{21} & a_{22} & \cdots & a_{2n}\\
+	\hdotsfor{4}\\
+	a_{m1} & a_{m2} & \cdots & a_{mn}
+	\end{bmatrix}
+	\begin{bmatrix}
+	a_{11} & a_{12} & \cdots & a_{1n}\\
+	a_{21} & a_{22} & \cdots & a_{2n}\\
+	\vdots & \vdots & \ddots & \vdots\\
+	a_{m1} & a_{m2} & \cdots & a_{mn}
+	\end{bmatrix}
+\]
+Sea $\mathfrak{F}$ una $\sigma$-'algebra definida sobre $\Omega$.
+Esta es una de las que salen:
+\[
+\overset{a}{\underset{b}{W}}
+\]
+\[
+X \overset{*}{\backsim} Y
+\]
+\[
+X \overset{\text{ind}}{=} Y
+\]
+
+Sea \R\ el conjunto de todos los reales y \C\ el de los complejos y sea $f:\R\tto\C$ una funci'on.
+
+\[
+\nabla f(x,\,y)=\left(\parcial{f}{y},\,\parcial{f}{y}\right)
+\]
+
+\[\upla{a}{n}\]
+\[\kupla[m]{x}{2}\]
+\par 
+Las rosas son rojas y el sol es amarillo, ¿qui'en tiene el poder para desafiar a los grandes ejercitos de Mordor y Isengard? Todo est'a realemente jodido.
+\par 
+El mar es azul, las rosas son rojas.
+\section{La teor'ia de Galois}
+\begin{align*}
+a*(a'*b) &= (a*a')*b & &\text{por la ley asociativa}\\
+		 &= c*b & &\text{por la definici'on de $a'$}\\
+		 &{=}_{e} b & &\text{por ser $e$ elemento identidad}
+\end{align*}
+
+\begin{defi}[Extensi\'{o}n de Galois]
+Una extensi'on finita, normal y separable $E$ de un campo $F$ se llama una {\bf extensi'on de Galois} de $F$.
+\end{defi}
+\par El siguiete resultado es el llamado teorema fundamental de la teor'ia de Galois.
+\begin{teor}[Teorema de Galois]
+Sea $E$ una extensi'on de Galois de $F$ y sea $K$ una campo tal que $F\subseteq K\subseteq E$.
+Entonces $K\mapsto G(E/K)$ establece una correspondencia biyectiva entre el conjunto de los subconjuntos de $E$ que contienen a $F$ y los subgrupos de $G(E/F)$.
+\end{teor}
+
+\begin{ejer}
+Demuestre la existencia de Dios.
+\end{ejer}
+
+\begin{teor}
+Dios existe
+\end{teor}
+\begin{proof}[Demostraci\'{o}n:]
+Procediendo por contradicci'on, supongamos que Dios no existe
+\[ \sec^2(x)=1+\tan^2(x). \qedhere \]
+
+\end{proof}
+
+
+\end{document}

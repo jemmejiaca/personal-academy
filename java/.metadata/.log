@@ -1,0 +1,44 @@
+!SESSION 2015-12-13 11:44:11.498 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2015-12-13 11:44:22.192
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2015-12-14 12:22:00.370 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.ui 4 4 2015-12-14 12:22:44.547
+!MESSAGE Plug-in 'org.eclipse.m2e.core.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.m2e.enableNatureAction
+
+!ENTRY org.eclipse.ui 4 4 2015-12-14 12:22:44.553
+!MESSAGE Plug-in 'org.eclipse.pde.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.pde.ui.ConvertedProjectWizard
+
+!ENTRY org.eclipse.ui 4 4 2015-12-14 12:22:44.553
+!MESSAGE Plug-in 'org.eclipse.wst.jsdt.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.wst.jsdt.internal.web.ui.convertProjects
+
+!ENTRY org.eclipse.ui 4 4 2015-12-14 12:22:44.742
+!MESSAGE Plug-in 'org.eclipse.m2e.core.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.m2e.enableNatureAction
+
+!ENTRY org.eclipse.ui 4 4 2015-12-14 12:22:44.743
+!MESSAGE Plug-in 'org.eclipse.pde.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.pde.ui.ConvertedProjectWizard
+
+!ENTRY org.eclipse.ui 4 4 2015-12-14 12:22:44.743
+!MESSAGE Plug-in 'org.eclipse.wst.jsdt.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.wst.jsdt.internal.web.ui.convertProjects
+
+!ENTRY org.eclipse.ui 4 4 2015-12-14 12:22:49.698
+!MESSAGE Plug-in 'org.eclipse.m2e.core.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.m2e.enableNatureAction
+
+!ENTRY org.eclipse.ui 4 4 2015-12-14 12:22:50.005
+!MESSAGE Plug-in 'org.eclipse.pde.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.pde.ui.ConvertedProjectWizard
+
+!ENTRY org.eclipse.ui 4 4 2015-12-14 12:22:50.011
+!MESSAGE Plug-in 'org.eclipse.wst.jsdt.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.wst.jsdt.internal.web.ui.convertProjects

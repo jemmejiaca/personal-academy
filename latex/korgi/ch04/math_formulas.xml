@@ -1,0 +1,211 @@
+<?xml version="1.0"?>
+<!DOCTYPE html    PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0//EN"
+           "http://www.w3.org/Math/DTD/mathml2/xhtml-math11-f.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="GENERATOR" content="TtM Unregistered 4.03" />
+ <style type="text/css">
+ div.p { margin-top: 7pt; }
+ span.roman {font-family: serif; font-style: normal; font-weight: normal;} 
+</style>
+<style type="text/css">
+ div.tiny {font-size:30%;}
+ div.scriptsize {font-size:xx-small;}
+ div.footnotesize {font-size:x-small;}
+ div.small {font-size:small;}
+ div.normalsize {font-size:medium;}
+ div.large {font-size:large;}
+ div.larger {font-size:x-large;}
+ div.largerstill {font-size:xx-large;}
+ div.huge {font-size:300%;}
+ span.smaller {font-size:smaller;}
+</style>
+
+	 										
+<title> Veni, vidi, vici\\small{Sieg Heil Sublime} </title>
+</head>
+<body><div>
+ 
+<h1 align="center">Veni, vidi, vici<br /><span class="small">Sieg Heil Sublime</span> </h1>
+
+<h3 align="center">Mauricio Mejia<br />Mario Mejia<a href="#tthFtNtAAB" name="tthFrefAAB">
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow>
+<msup><mrow></mrow><mrow><mn>1</mn></mrow>
+</msup>
+</mrow></math></a> </h3>
+
+<div class="p"><!----></div>
+  `" 
+ `&lt; 
+ `&#62; 
+
+ `' 
+
+
+
+<div class="p"><!----></div>
+ <a name="tth_sEc1"></a><h2>
+1&nbsp;&nbsp;Matem'aticas</h2>
+La siguiente f'ormula: 
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo>,</mo><mi>&ensp;</mi><mi>y</mi><mo stretchy="false">)</mo><mo>=</mo><mi>ax</mi><mo>+</mo><mi>by</mi></mrow></math> es una fórmula no desplegada, mientras que:
+<br />
+<table width="100%"><tr><td align="center">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+    <mstyle displaystyle="true"><mrow><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy="false">)</mo><mo>=</mo><mi>ax</mi><mo>+</mo><mi>by</mi><mo>.</mo></mrow>
+    </mstyle></math>
+</td></tr></table>
+<br />
+
+si lo est'a, esbastante <i>cool</i>, ¿no?
+<br />
+Para todo 
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow><mi>&epsiv;</mi><mo>&gt;</mo><mn>0</mn></mrow></math> existe una 
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow><mi>&delta;</mi><mo>&gt;</mo><mn>0</mn></mrow></math> tal que 
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow><mn>0</mn><mo>&lt;</mo><mo stretchy="false">&verbar;</mo><mi>x</mi><mo>-</mo><mi>c</mi><mo stretchy="false">&verbar;</mo><mo>&lt;</mo><mi>&delta;</mi></mrow></math> implica que 
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow><mo stretchy="false">&verbar;</mo><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo><mo>-</mo><mi>L</mi><mo stretchy="false">&verbar;</mo><mo>&lt;</mo><mi>&epsiv;</mi></mrow></math>.
+<br />
+<table width="100%"><tr><td align="center">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+    <mstyle displaystyle="true"><mrow>
+<mtext>texto dentro de la fórmula, wieeeerd&nbsp;</mtext>
+
+<msub><mrow><mi>X</mi></mrow><mrow><mi>i</mi></mrow>
+</msub>
+\preccurlyeq
+<msub><mrow><mi>X</mi></mrow><mrow><mi>j</mi></mrow>
+</msub>
+</mrow>
+    </mstyle></math>
+</td></tr></table>
+<br />
+
+Los siguientes s'imbolos pertenecen al paquete <tt>latexsym</tt>: 
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow>\ulcorner</mrow></math>, 
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow>\urcorner</mrow></math>, 
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow>\llcorner</mrow></math>, 
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow>\lrcorner</mrow></math>.
+Ahgamos algunas sumas:
+<br />
+<table width="100%"><tr><td align="center">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+    <mstyle displaystyle="true"><mrow>
+<munderover><mo>&sum;</mo><mrow><mi>i</mi><mo>=</mo><mn>0</mn> </mrow>
+<mrow><mi>NM</mi></mrow></munderover>
+<msub><mrow><mi>&beta;</mi></mrow><mrow><mi>i</mi></mrow>
+</msub>
+</mrow>
+    </mstyle></math>
+</td></tr></table>
+<br />
+
+Otra f'ormula m'as complicada:
+<br />
+<table width="100%"><tr><td align="center">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+    <mstyle displaystyle="true"><mrow>
+<munderover><mo>&sum;</mo><mrow>\substack<mi>j</mi><mo>=</mo><mi>k</mi><mi>i</mi><mo>=</mo><mi>k</mi><mo>-</mo><mn>1</mn> </mrow>
+<mrow><mi>n</mi><mo>,</mo><mi>&ensp;</mi><mi>m</mi></mrow></munderover>
+<msub><mrow><mi>c</mi></mrow><mrow><mi>i</mi></mrow>
+</msub>
+
+<msub><mrow><mi>&alpha;</mi></mrow><mrow><mi>j</mi></mrow>
+</msub>
+</mrow>
+    </mstyle></math>
+</td></tr></table>
+<br />
+
+Delimitadores:
+<br />
+<table width="100%"><tr><td align="center">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+    <mstyle displaystyle="true"><mrow>
+<msup><mrow><mo>(</mo>
+<mfrac><mrow><mn>1</mn><mo>-</mo><mi>n</mi></mrow>
+<mrow><mn>1</mn><mo>+</mo><mi>n</mi></mrow>
+</mfrac>
+<mo>)</mo></mrow><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow>
+</msup>
+</mrow>
+    </mstyle></math>
+</td></tr></table>
+<br />
+
+<br />
+<table width="100%"><tr><td align="center">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+    <mstyle displaystyle="true"><mrow>
+<msub><mrow><mo> </mo>
+<mfrac><mrow><mi>dy</mi></mrow>
+<mrow><mi>dx</mi></mrow>
+</mfrac>
+<mo>|</mo></mrow><mrow><mi>x</mi><mo>=</mo><mi>b</mi></mrow>
+</msub>
+<mo>=</mo><mi>b</mi><mo>+</mo><mn>1</mn></mrow>
+    </mstyle></math>
+</td></tr></table>
+<br />
+
+<br />
+<table width="100%"><tr><td align="center">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+    <mstyle displaystyle="true"><mrow><mrow><mo> </mo><mo>(</mo></mrow>
+<mfrac><mrow><mn>1</mn><mo>-</mo><mi>n</mi></mrow>
+<mrow><mn>1</mn><mo>+</mo><mi>n</mi></mrow>
+</mfrac>
+
+<msup><mrow><mo> </mo><mo>)</mo></mrow><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow>
+</msup>
+</mrow>
+    </mstyle></math>
+</td></tr></table>
+<br />
+
+Los siguientes son casos!!!:
+<br />
+<table width="100%"><tr><td align="center">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+    <mstyle displaystyle="true"><mrow><mrow>
+<msub><mrow><mi>f</mi></mrow><mrow><mi>n</mi></mrow>
+</msub>
+<mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo><mo>=</mo><mo>	</mo><mo>-</mo>
+<msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow>
+</msup>
+<mo>+</mo><mi>n</mi><mo>,</mo></mrow>
+</mtd><mtd columnalign="center">
+<mrow>
+<mtext>si <mi fontstyle="normal">x</mi><mo fontstyle="normal">&lt;</mo><mn>0</mn>
+<mtext> y <mi fontstyle="normal">n</mi>
+<mtext> es par</mtext>
+<mo>,</mo><mo>	</mo><mi>&alpha;</mi><mo>+</mo><mi>x</mi><mo>,</mo></mrow>
+</mtd><mtd columnalign="center">
+<mrow>
+<mtext>si <mi fontstyle="normal">x</mi><mo fontstyle="normal">&gt;</mo><mn>0</mn>
+<mtext></mtext>
+<mo>,</mo><mo>	</mo>
+<msup><mrow><mi>x</mi></mrow><mrow><mn>2</mn></mrow>
+</msup>
+<mo>,</mo></mrow>
+</mtd><mtd columnalign="center">
+
+<mtext>en otros casos.</mtext>
+</mrow>
+    </mstyle></math>
+</td></tr></table>
+<br />
+<br /><br /><hr /><small>File translated from
+T<sub><span class="small">E</span></sub>X
+by <a href="http://hutchinson.belmont.ma.us/tth/">
+T<sub><span class="small">T</span></sub>M Unregistered</a>,
+version 4.03.<br />On 13 Dec 2015, 22:39.</small>
+</div></body></html>

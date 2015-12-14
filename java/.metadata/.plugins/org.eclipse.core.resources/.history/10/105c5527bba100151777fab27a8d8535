@@ -1,0 +1,10 @@
+package ch01.sec2;
+
+public class SomeFormulas {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

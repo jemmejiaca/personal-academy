@@ -1,0 +1,499 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2015.10.9)  13 DEC 2015 22:33
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./images.tex
+(./images.tex
+LaTeX2e <2011/06/27>
+Babel <3.9h> and hyphenation patterns for 78 languages loaded.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+) (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2013/12/03 3.9h The Babel package
+(/usr/share/texlive/texmf-dist/tex/generic/babel-spanish/spanish.ldf
+Language: spanish.ldf 2014/01/29 v5.0m Spanish support from the babel system
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2013/12/03 3.9h Babel common definitions
+\babel@savecnt=\count87
+\U@D=\dimen103
+)
+\es@datefmt=\count88
+\es@quottoks=\toks14
+\es@quotdepth=\count89
+Package babel Info: Making " an active character on input line 496.
+Package babel Info: Making . an active character on input line 599.
+Package babel Info: Making < an active character on input line 644.
+Package babel Info: Making > an active character on input line 644.
+Package babel Info: Making ' an active character on input line 671.
+)) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip43
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks15
+\ex@=\dimen104
+)) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen105
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count90
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count91
+\leftroot@=\count92
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count93
+\DOTSCASE@=\count94
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen106
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count95
+\c@MaxMatrixCols=\count96
+\dotsspace@=\muskip10
+\c@parentequation=\count97
+\dspbrk@lvl=\count98
+\tag@help=\toks16
+\row@=\count99
+\column@=\count100
+\maxfields@=\count101
+\andhelp@=\toks17
+\eqnshift@=\dimen107
+\alignsep@=\dimen108
+\tagshift@=\dimen109
+\tagwidth@=\dimen110
+\totwidth@=\dimen111
+\lineht@=\dimen112
+\@envbody=\toks18
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+) (/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2004/08/06 v2.20
+\thm@style=\toks20
+\thm@bodyfont=\toks21
+\thm@headfont=\toks22
+\thm@notefont=\toks23
+\thm@headpunct=\toks24
+\thm@preskip=\skip46
+\thm@postskip=\skip47
+\thm@headsep=\skip48
+\dth@everypar=\toks25
+) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (/usr/share/texlive/texmf-dist/tex/latex/base/latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
+) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp.sty
+Package: fp 1995/04/02
+`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich (/usr/sha
+re/texlive/texmf-dist/tex/latex/fp/defpattern.sty
+Package: defpattern 1994/10/12
+\actioncount=\count102
+) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-basic.sty
+Package: fp-basic 1996/05/13
+\FP@xs=\count103
+\FP@xia=\count104
+\FP@xib=\count105
+\FP@xfa=\count106
+\FP@xfb=\count107
+\FP@rega=\count108
+\FP@regb=\count109
+\FP@regs=\count110
+\FP@times=\count111
+) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-addons.sty
+Package: fp-addons 1995/03/15
+) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-snap.sty
+Package: fp-snap 1995/04/05
+) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-exp.sty
+Package: fp-exp 1995/04/03
+) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-trigo.sty
+Package: fp-trigo 1995/04/14
+) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-pas.sty
+Package: fp-pas 1994/08/29
+) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-random.sty
+Package: fp-random 1995/02/23
+\FPseed=\count112
+) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-eqn.sty
+Package: fp-eqn 1995/04/03
+) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-upn.sty
+Package: fp-upn 1996/10/21
+) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-eval.sty
+Package: fp-eval 1995/04/03
+))
+\c@prop=\count113
+
+Package amsthm Warning: Unknown theoremstyle `defintion' on input line 32.
+
+\c@defi=\count114
+\c@ejem=\count115
+\c@ejer=\count116
+\c@nota=\count117
+\c@notac=\count118
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: dvips.def on input line 130.
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+)) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks26
+\inpenc@posthook=\toks27
+(/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
+File: latin1.def 2008/03/30 v1.1d Input encoding file
+))
+\sizebox=\box28
+\lthtmlwrite=\write3
+(./images.aux
+LaTeX Info: Redefining \. on input line 7.
+LaTeX Info: Redefining \% on input line 7.
+)
+\openout1 = `images.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 166.
+LaTeX Font Info:    ... okay on input line 166.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 166.
+LaTeX Font Info:    ... okay on input line 166.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 166.
+LaTeX Font Info:    ... okay on input line 166.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 166.
+LaTeX Font Info:    ... okay on input line 166.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 166.
+LaTeX Font Info:    ... okay on input line 166.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 166.
+LaTeX Font Info:    ... okay on input line 166.
+LaTeX Info: Redefining \. on input line 166.
+LaTeX Info: Redefining \% on input line 166.
+
+latex2htmlLength hsize=349.0pt
+
+latex2htmlLength vsize=629.40024pt
+
+latex2htmlLength hoffset=0.0pt
+
+latex2htmlLength voffset=0.0pt
+
+latex2htmlLength topmargin=0.0pt
+
+latex2htmlLength topskip=0.00003pt
+
+latex2htmlLength headheight=0.0pt
+
+latex2htmlLength headsep=0.0pt
+
+latex2htmlLength parskip=0.0pt plus 1.0pt
+
+latex2htmlLength oddsidemargin=54.0pt
+
+latex2htmlLength evensidemargin=54.0pt
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 191.
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 191.
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+lasy on input line 191.
+(/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+l2hSize :tex2html_wrap_inline443:8.7125pt::8.7125pt::86.63042pt.
+[1
+
+
+
+]
+l2hSize :tex2html_wrap_indisplay445:8.7125pt::8.7125pt::86.0221pt.
+[2
+
+
+]
+l2hSize :tex2html_wrap_inline447:7.57185pt::7.57185pt::25.72862pt.
+[3
+
+
+]
+l2hSize :tex2html_wrap_inline449:8.10416pt::8.10416pt::25.90352pt.
+[4
+
+
+]
+l2hSize :tex2html_wrap_inline451:8.7125pt::8.7125pt::70.96695pt.
+[5
+
+
+]
+l2hSize :tex2html_wrap_inline453:8.7125pt::8.7125pt::68.48685pt.
+[6
+
+
+]
+l2hSize :tex2html_wrap_indisplay455:7.98248pt::7.98248pt::41.08354pt.
+[7
+
+
+]
+l2hSize :tex2html_wrap_inline457:7.58003pt::0.0pt::6.02254pt.
+[8
+
+
+]
+l2hSize :tex2html_wrap_inline459:7.58003pt::0.0pt::6.02254pt.
+[9
+
+
+]
+l2hSize :tex2html_wrap_inline461:7.07185pt::0.0pt::6.02254pt.
+[10
+
+
+]
+l2hSize :tex2html_wrap_inline463:7.07185pt::0.0pt::6.02254pt.
+[11
+
+
+]
+l2hSize :tex2html_wrap_indisplay465:20.74919pt::20.74919pt::28.57413pt.
+[12
+
+
+]
+l2hSize :tex2html_wrap_indisplay467:24.02263pt::24.02263pt::46.91382pt.
+[13
+
+
+]
+l2hSize :tex2html_wrap_indisplay469:18.3665pt::18.3665pt::61.01799pt.
+[14
+
+
+]
+l2hSize :tex2html_wrap_indisplay471:16.3776pt::16.3776pt::73.44478pt.
+[15
+
+
+]
+l2hSize :tex2html_wrap_indisplay473:18.3665pt::18.3665pt::61.01799pt.
+[16
+
+
+]
+l2hSize :tex2html_wrap_indisplay475:27.71739pt::27.71739pt::197.717pt.
+[17
+
+
+]
+l2hSize :tex2html_wrap_indisplay477:18.72697pt::18.72697pt::157.79987pt.
+[18
+
+
+]
+l2hSize :tex2html_wrap_indisplay479:25.71594pt::25.71594pt::47.03741pt.
+[19
+
+
+]
+l2hSize :tex2html_wrap_indisplay481:8.02328pt::8.02328pt::44.21063pt.
+[20
+
+
+]
+l2hSize :tex2html_wrap_indisplay483:30.43747pt::30.43747pt::118.32837pt.
+[21
+
+
+]
+l2hSize :tex2html_wrap_indisplay485:33.2554pt::33.2554pt::230.92761pt.
+[22
+
+
+]
+LaTeX Font Info:    Try loading font information for U+euf on input line 359.
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/ueuf.fd
+File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
+)
+l2hSize :tex2html_wrap_inline487:8.07089pt::8.07089pt::7.24008pt.
+[23
+
+
+]
+l2hSize :tex2html_wrap_inline489:7.07185pt::0.0pt::7.19737pt.
+[24
+
+
+]
+l2hSize :tex2html_wrap_inline491:7.48248pt::0.0pt::8.45587pt.
+[25
+
+
+]
+l2hSize :tex2html_wrap_indisplay493:14.71191pt::14.71191pt::12.41005pt.
+[26
+
+
+]
+l2hSize :tex2html_wrap_indisplay495:11.64502pt::11.64502pt::33.8689pt.
+[27
+
+
+]
+l2hSize :tex2html_wrap_indisplay497:13.35782pt::13.35782pt::37.15793pt.
+[28
+
+
+]
+l2hSize :tex2html_wrap_inline499:7.54332pt::0.0pt::8.45587pt.
+[29
+
+
+]
+l2hSize :tex2html_wrap_inline501:7.54332pt::0.0pt::8.45587pt.
+[30
+
+
+]
+l2hSize :tex2html_wrap_inline503:8.10416pt::8.10416pt::55.7537pt.
+[31
+
+
+]
+l2hSize :tex2html_wrap_indisplay505:16.37761pt::16.37761pt::111.57515pt.
+[32
+
+
+]
+l2hSize :tex2html_wrap_indisplay507:8.7125pt::8.7125pt::70.78581pt.
+[33
+
+
+]
+l2hSize :tex2html_wrap_indisplay509:8.7125pt::8.7125pt::60.5075pt.
+[34
+
+
+]
+l2hSize :tex2html_wrap_indisplay511:9.46562pt::9.46562pt::48.82843pt.
+[35
+
+
+]
+l2hSize :tex2html_wrap_indisplay512:9.46562pt::9.46562pt::60.38673pt.
+[36
+
+
+]
+l2hSize :tex2html_wrap_indisplay513:8.10416pt::8.10416pt::31.88547pt.
+[37
+
+
+]
+l2hSize :tex2html_wrap_inline515:8.41812pt::0.0pt::9.14114pt.
+[38
+
+
+]
+l2hSize :tex2html_wrap_indisplay516:8.10416pt::8.10416pt::18.20671pt.
+[39
+
+
+]
+l2hSize :tex2html_wrap_inline518:7.07185pt::0.0pt::5.64613pt.
+[40
+
+
+]
+l2hSize :tex2html_wrap_inline525:7.48248pt::0.0pt::9.2619pt.
+[41
+
+
+]
+l2hSize :tex2html_wrap_inline527:7.48248pt::0.0pt::9.10983pt.
+[42
+
+
+]
+l2hSize :tex2html_wrap_inline540:7.48248pt::0.0pt::10.63065pt.
+[43
+
+
+]
+l2hSize :tex2html_wrap_inline542:7.98248pt::7.98248pt::57.10715pt.
+[44
+
+
+]
+l2hSize :tex2html_wrap_inline544:8.7125pt::8.7125pt::69.0625pt.
+[45
+
+
+]
+l2hSize :tex2html_wrap_inline550:8.7125pt::8.7125pt::40.42532pt.
+[46
+
+
+]
+l2hSize :tex2html_wrap_inline562:7.3913pt::0.0pt::9.0643pt.
+[47
+
+
+]
+l2hSize :tex2html_wrap_indisplay565:10.17673pt::10.17673pt::105.96655pt.
+[48
+
+
+] (./images.aux
+LaTeX Info: Redefining \. on input line 7.
+LaTeX Info: Redefining \% on input line 7.
+) ) 
+Here is how much of TeX's memory you used:
+ 3086 strings out of 493305
+ 36730 string characters out of 6139897
+ 112670 words of memory out of 5000000
+ 6499 multiletter control sequences out of 15000+600000
+ 10065 words of font info for 42 fonts, out of 8000000 for 9000
+ 957 hyphenation exceptions out of 8191
+ 27i,14n,26p,233b,226s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on images.dvi (48 pages, 13632 bytes).
