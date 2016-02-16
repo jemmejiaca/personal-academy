@@ -1,0 +1,24 @@
+% root file
+\documentclass[12pt]{book}
+
+\usepackage[spanish,activeacute]{babel}
+\usepackage{makeidx}
+\title{La vida de Pirry}
+\author{Mauricio Piraquive}
+\includeonly{cap1}
+\makeindex
+
+\begin{document}
+\maketitle
+\frontmatter
+\tableofcontents
+	\input{pref}
+\mainmatter
+	\input{intro}
+	\input{cap1}
+	\input{cap2}
+\appendix
+	\input{apend1}
+	%\input{apend2}
+	\printindex
+\end{document}

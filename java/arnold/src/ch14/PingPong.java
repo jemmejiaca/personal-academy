@@ -10,6 +10,7 @@ public class PingPong extends Thread {
 	}
 	
 	public void run() {
+		System.out.println("1-"+Thread.currentThread().getName());
 		try {
 			for(;;) {
 				System.out.print(word + " ");
@@ -21,6 +22,7 @@ public class PingPong extends Thread {
 	}
 
 	public static void main(String[] args) {
+		System.out.println("0-"+Thread.currentThread().getName());
 		new PingPong("ping", 33 ).start();	// 1/30 second
 		new PingPong("PONG", 100).start();	// 1/10 second
 	}

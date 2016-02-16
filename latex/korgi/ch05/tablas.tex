@@ -1,0 +1,33 @@
+\documentclass[11pt]{article}
+
+\usepackage[spanish,activeacute]{babel}
+\title{Acerca de tablas en \latex}
+\author{El de siempre}
+
+\begin{document}
+\par
+Esta es la primera tabla, un deleite de encanto y sencillez.
+\begin{center}
+\begin{tabular}{|l|l|c|}\hline
+	\multicolumn{3}{|c|}{PART'ICULAS AT'OMICAS ELEMENTALES}\\ \hline\hline
+	\sf{Part'icula:} & \sf{Descubridor:} & \sf{A'no de descubrimiento:}\\ \hline\hline
+	Electr'on & Joseph J. Thomson & 1887\\ \hline
+	Prot'on & James Rutherford & 1919\\ \hline
+	Neutrón & James Chadwick & 1932\\ \hline
+	Positr'on & Carl D. Anderson & 1932\\ \hline
+\end{tabular}
+\end{center}
+\par 
+A continuación tenemos un esperpento que podr'ia resultar 'util en muchas situaciones de la vida acad'emica.
+\begin{center}
+\begin{tabular}{*{4}{|c}|}\hline
+	Uno & Dos & Tres & Cuatro\\ \hline
+	&&A&B \\ \cline{3-4}
+	&&C& \\ \cline{1-3}
+	&D&& \\ \cline{2-2}
+	&E&& \\ \hline
+	1&2&3&4 \\ \hline
+\end{tabular}
+\end{center}
+
+\end{document}

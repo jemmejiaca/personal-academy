@@ -1,0 +1,6 @@
+\select@language {spanish}
+\contentsline {chapter}{Prefacio}{\es@scroman {iii}}
+\contentsline {chapter}{\numberline {1}Introducci'on a la vida de Pirry}{1}
+\contentsline {chapter}{\numberline {2}De Boyac'a en los Campos}{3}
+\contentsline {chapter}{\numberline {3}El alma de caperucita}{5}
+\contentsline {chapter}{\numberline {A}C'odigo ASCII}{7}

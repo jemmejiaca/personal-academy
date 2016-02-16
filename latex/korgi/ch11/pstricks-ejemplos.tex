@@ -1,0 +1,68 @@
+\documentclass{article}
+\usepackage{pst-all}
+\usepackage{pstcol}
+\usepackage{pstricks}
+
+
+\newpsobject{grilla}{psgrid}{subgriddiv=1,griddots=10,gridlabels=6pt}
+
+\begin{document}
+\begin{center}
+	\psset{unit=3.5cm}
+	\begin{pspicture}(-1.5,-1)(1.5,0)\grilla
+		\pstextpath[c]{\pscurve(-1.41,0)(-1,-1)(0,0)(1,-1)(1.41,0)}
+		{\color{blue}\large Esta frase sinuosa y peculiar est\'a escrita a lo largo de la curva $y=x^4-2x^2$}
+	\end{pspicture}
+\end{center}
+
+\par He aqui otra maginfica grilla:
+\begin{center}
+	\psset{unit=0.5cm}
+	\begin{pspicture}(-5,0)(5,4)\grilla
+	
+	\end{pspicture}
+\end{center}
+
+%{\grey \large Esta frase est\'a escrita en color gris claro}
+
+\par El comando {\tt \textbackslash psline} sirve para unir para unir con segmentos de recta los puntos  $(x_0,\,y_0)$, $(x_1,\,y_1)$, $\ldots$, $(x_n,\,y_n)$. Por ejemplo:
+
+\begin{center}
+	\begin{pspicture}(0,0)(6,4)\grilla
+		\psline[linewidth=1.5pt,linearc=0.1]{>>->>}(0,4)(6,0)(0,0)(4.5,2.5)
+	\end{pspicture}
+\end{center}
+
+\par Aqui va otra figura:
+\begin{center}
+	\psset{unit=0.8cm}
+	\begin{pspicture}(0,0)(5,5) %\grilla
+		\psline{->}(0,1)(5,1)
+		\psline{->}(1,0)(1,5)
+		\psline[linewidth=2pt]{[-]}(2,1)(4.5,1)
+		\psline[linewidth=2pt]{(-)}(1,1.5)(1,4)
+	\end{pspicture}
+\end{center}
+
+\par Este es un intento de tri\'angulo hecho por mi:
+\begin{center}
+	\psset{unit=0.5cm}
+	\begin{pspicture}(0,0)(16,16) \grilla
+		\pspolygon[linewidth=1.5pt](2,2)(7,8)(7,2)
+		\pswedge[linewidth=1.5pt](2,2){1}{0}{50.19}
+	\end{pspicture}
+\end{center}
+
+\par Una par\'abola 3D:
+\begin{center}
+	\begin{pspicture}(-4,-4)(6,10)\grilla
+		\parabola[gradangle=90,fillstyle=gradient,gradmidpoint=12](-3,7)(0,1)
+		\psellipse[fillstyle=gradient](0,7)(3,0.5)
+		\psline{->}(-4,0)(6,0)
+		\psline{->}(4,4)(-3,-3)
+		\psline{->}(0,6.5)(0,10)
+		\psline(0,-3)(0,1)
+	\end{pspicture}
+\end{center}
+
+\end{document}
